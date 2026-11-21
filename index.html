@@ -15,12 +15,12 @@
   </head>
   <body class="bg-gray-800 text-lime-400 p-0 m-0">
     <!-- ========= The navigation section will be here =========== -->
-    <nav class="flex py-4 px-9 justify-between items-center">
+    <nav class="flex py-2 px-4 md:py-4 md:px-9 justify-between items-center">
       <!-- ========= Brand container ======== -->
       <div
-        class="h-9 w-48 flex justify-center items-center rounded bg-lime-700 cursor-pointer shadow-md shadow-black"
+        class="h-9 w-44 md:w-48 flex justify-center items-center rounded bg-lime-700 cursor-pointer shadow-md shadow-black"
       >
-        <img class="w-32" src="public/img/omnifood-logo.png" alt="" />
+        <img class="w-28 md:w-32" src="public/img/omnifood-logo.png" alt="" />
       </div>
       <!-- ==================== -->
       <!-- ============ The navlinks container ======== -->
@@ -57,36 +57,38 @@
     <!-- ============================================== -->
     <!-- ============== Hero section ============= -->
     <header
-      class="my-7 px-5 py-10 md:px-10 md:py-12 lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col md:flex-row"
+      class="my-4 md:my-7 px-1 py-6 md:px-10 md:py-12 lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col md:flex-row"
     >
       <!-- =========Left part on the hero section ====== -->
-      <div class="text-center md:text-start p-3">
-        <h1 class="text-4xl lg:text-5xl font-bold mb-6">
+      <div class="text-center md:text-start p-1 md:p-3">
+        <h1
+          class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6"
+        >
           A healthy meal delivered to your door, every single day
         </h1>
-        <p class="text-xl leading-6 md:w-lg">
+        <p class="text-lg md:text-xl leading-6 md:w-lg">
           The smart 365-days-per-year food subscription that will make you eat
           healthy again. Tailored to your personal tastes and nutritional needs.
         </p>
-        <div class="mt-8 mb-8">
+        <div class="mt-6 md:mt-8 mb-6 md:mb-8">
           <button
-            class="text-xl font-bold py-3 px-6 bg-lime-400 hover:bg-lime-500 text-gray-800 rounded-2xl cursor-pointer mr-4 shadow shadow-black"
+            class="text-lg md:text-xl font-semibold md:font-bold py-1.5 md:py-3 px-4 md:px-6 bg-lime-400 hover:bg-lime-500 text-gray-800 rounded-2xl cursor-pointer mr-4 shadow shadow-black"
           >
             Start eating well
           </button>
           <button
-            class="text-xl font-bold py-3 px-6 bg-gray-700 border border-lime-400 hover:bg-gray-800 hover:border text-lime-400 rounded-2xl cursor-pointer shadow shadow-black"
+            class="text-lg md:text-xl font-semibold md:font-bold py-1.5 md:py-3 px-4 md:px-6 bg-gray-700 border border-lime-400 hover:bg-gray-800 hover:border text-lime-400 rounded-2xl cursor-pointer shadow shadow-black"
           >
             Learn more ↓
           </button>
         </div>
         <!-- ========================= -->
-        <div class="flex">
+        <div class="flex mb-4 pb-3">
           <!-- ========div for the smallimages ======= -->
-          <div class="flex mr-3 justify-center items-center">
+          <div class="flex mr-1.5 md:mr-3 justify-center items-center">
             <!-- ========1======= -->
             <div
-              class="border-3 border-gray-200 h-10 w-10 rounded-full overflow-hidden"
+              class="border-3 border-gray-200 h-9 w-9 md:h-10 md:w-10 rounded-full overflow-hidden"
             >
               <img
                 class="w-full"
@@ -96,7 +98,7 @@
             </div>
             <!-- ======2====== -->
             <div
-              class="border-3 -ml-3 border-gray-200 h-10 w-10 rounded-full overflow-hidden"
+              class="border-3 -ml-3 border-gray-200 h-9 w-9 md:h-10 md:w-10 rounded-full overflow-hidden"
             >
               <img
                 class="w-full"
@@ -106,7 +108,7 @@
             </div>
             <!-- ======3====== -->
             <div
-              class="border-3 -ml-3 border-gray-200 h-10 w-10 rounded-full overflow-hidden"
+              class="border-3 -ml-3 border-gray-200 h-9 w-9 md:h-10 md:w-10 rounded-full overflow-hidden"
             >
               <img
                 class="w-full"
@@ -116,7 +118,7 @@
             </div>
             <!-- ======4======= -->
             <div
-              class="border-3 -ml-3 border-gray-200 h-10 w-10 rounded-full overflow-hidden"
+              class="border-3 -ml-3 border-gray-200 h-9 w-9 md:h-10 md:w-10 rounded-full overflow-hidden"
             >
               <img
                 class="w-full"
@@ -126,7 +128,7 @@
             </div>
             <!-- ======5======== -->
             <div
-              class="border-3 -ml-3 border-gray-200 h-10 w-10 rounded-full overflow-hidden"
+              class="border-3 -ml-3 border-gray-200 h-9 w-9 md:h-10 md:w-10 rounded-full overflow-hidden"
             >
               <img
                 class="w-full"
@@ -136,7 +138,7 @@
             </div>
             <!-- =======6======= -->
             <div
-              class="border-3 -ml-3 border-gray-200 h-10 w-10 rounded-full overflow-hidden"
+              class="border-3 -ml-3 border-gray-200 h-9 w-9 md:h-10 md:w-10 rounded-full overflow-hidden"
             >
               <img
                 class="w-full"
@@ -162,10 +164,12 @@
     </header>
     <!-- =============End of Header =========== -->
     <!-- ========== Section1 ==================== -->
-    <section class="my-10 py-3 md:px-2 lg:max-w-6xl xl:max-w-7xl mx-auto">
-      <div class="text-center uppercase font-bold">As featured in</div>
+    <section class="my-10 py-3 px-1 md:px-2 lg:max-w-6xl xl:max-w-7xl mx-auto">
+      <div class="text-center uppercase text-sm md:text-lg font-bold">
+        As featured in
+      </div>
       <div
-        class="px-4 rounded-2xl lg:max-w-6xl mx-auto md:px-7 lg:px-4 py-9 flex justify-between items-center xl:max-w-7xl md:border"
+        class="px-2 rounded-2xl lg:max-w-6xl mx-auto md:px-7 lg:px-4 py-9 flex justify-between items-center xl:max-w-7xl md:border"
       >
         <div class="h-3 sm:h-6 md:h-7 lg:h-10">
           <img
@@ -207,19 +211,25 @@
           />
         </div>
       </div>
-      <div class="py-5 px-3 my-10 text-center">
-        <p class="uppercase font-bold mb-12">how it works</p>
-        <p class="text-3xl md:text-4xl font-bold mb-5">
+      <div class="py-5 px-1.5 md:px-3 my-5 md:my-10 text-center">
+        <p class="uppercase text-sm md:text-lg font-bold mb-8 md:mb-12">
+          how it works
+        </p>
+        <p class="text-2xl sm:text-3xl md:text-4xl font-bold mb-5">
           Your daily dose of health in 3 simple steps
         </p>
       </div>
       <!-- ============App 01 ======== -->
       <div
-        class="flex flex-col justify-center sm:flex-row sm:justify-between items-center px-7 lg:px-4 lg:pr-20 xl:pr-28"
+        class="pb-4 flex flex-col justify-center sm:flex-row sm:justify-between items-center px-2 md:px-7 lg:px-4 lg:pr-20 xl:pr-28"
       >
-        <div class="sm:mr-20 md:mr-10 lg:mr-32 xl:mr-48 mb-14 mt-16">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">01</h1>
-          <p class="text-xl md:text-3xl font-bold mb-7">
+        <div class="sm:mr-20 md:mr-10 lg:mr-32 xl:mr-48 mb-14 mt-10">
+          <h1
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4"
+          >
+            01
+          </h1>
+          <p class="text-xl md:text-3xl font-bold mb-2 md:mb-7">
             Tell us what you like (and what not)
           </p>
           <p class="text-sm tracking-wider md:text-lg">
@@ -243,7 +253,7 @@
       </div>
       <!-- ============App 02 ======== -->
       <div
-        class="flex flex-col justify-center sm:flex-row sm:justify-between items-center px-7 lg:px-4 lg:pl-20 xl:pl-28 my-16"
+        class="flex flex-col justify-center sm:flex-row sm:justify-between items-center px-2 md:px-7 lg:px-4 lg:pl-20 xl:pl-28 my-8 md:my-16"
       >
         <div class="mt-5 order-2 sm:order-1">
           <div
@@ -258,10 +268,14 @@
         </div>
         <!-- ========== -->
         <div
-          class="sm:ml-20 md:ml-10 lg:ml-32 xl:ml-48 mb-14 mt-16 order-1 sm:order-2"
+          class="sm:ml-20 md:ml-10 lg:ml-32 xl:ml-48 mb-10 md:mb-14 mt-12 md:mt-16 order-1 sm:order-2"
         >
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">02</h1>
-          <p class="text-xl md:text-3xl font-bold mb-7">
+          <h1
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-1 md:mb-4"
+          >
+            02
+          </h1>
+          <p class="text-xl md:text-3xl font-bold mb-4 md:mb-7">
             Approve your weekly meal plan
           </p>
           <p class="text-sm tracking-wider md:text-lg">
@@ -273,14 +287,20 @@
       </div>
       <!-- ============App 03 ======== -->
       <div
-        class="flex flex-col justify-center sm:flex-row sm:justify-between items-center px-7 lg:px-4 lg:pr-20 xl:pr-28"
+        class="flex flex-col justify-center sm:flex-row sm:justify-between items-center px-2 md:px-7 lg:px-4 lg:pr-20 xl:pr-28"
       >
-        <div class="sm:mr-20 md:mr-10 lg:mr-32 xl:mr-48 mb-14 mt-16">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">03</h1>
-          <p class="text-xl md:text-3xl font-bold mb-7">
+        <div
+          class="sm:mr-20 md:mr-10 lg:mr-32 xl:mr-48 mb-10 md:mb-14 mt-10 md:mt-16"
+        >
+          <h1
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-1 md:mb-4"
+          >
+            03
+          </h1>
+          <p class="text-xl md:text-3xl font-bold mb-4 md:mb-7">
             Receive meals at convenient time
           </p>
-          <p class="text-sm tracking-wider md:text-lg">
+          <p class="text-sm tracking-wider md:text-lg mb-2">
             Best chefs in town will cook your selected meal every day, and we
             will deliver it to your door whenever works best for you. You can
             change delivery schedule and address daily!
@@ -300,15 +320,15 @@
       </div>
     </section>
     <!-- ========== section2 ==================== -->
-    <section class="pt-32 pb-20 bg-lime-400 text-gray-900">
-      <div class="my-7 text-center">
-        <p class="uppercase font-bold text-lg -mb-5">meals</p>
-        <h3 class="mt-5 mb-2 text-3xl lg:text-5xl font-bold">
+    <section class="pt-16 md:pt-32 px-0 md:pb-20 bg-lime-400 text-gray-900">
+      <div class="my-3 md:my-7 text-center">
+        <p class="uppercase font-bold text-sm md:text-lg -mb-5">meals</p>
+        <h3 class="mt-5 mb-4 text-2xl sm:text-3xl lg:text-5xl font-bold">
           Omnifood AI chooses from 5,000+ recipes
         </h3>
       </div>
       <div
-        class="mb-2 lg:max-w-6xl xl:max-w-7xl mx-auto px-10 md:px-5 grid md:grid-cols-2 md:gap-16 lg:grid-cols-3 lg:gap-14"
+        class="mb-2 lg:max-w-6xl xl:max-w-7xl mx-auto px-0.5 sm:px-10 md:px-5 grid md:grid-cols-2 md:gap-16 lg:grid-cols-3 lg:gap-14"
       >
         <div
           class="rounded-xl overflow-hidden shadow-lg shadow-gray-800 hover:shadow-xl mb-12"
@@ -318,12 +338,14 @@
             alt="meal-1"
             class="h-60 w-full object-cover"
           />
-          <div class="py-8 px-10">
+          <div class="py-6 md:py-8 px-4 md:px-10">
             <span
               class="bg-gray-800 text-lime-400 rounded-2xl py-1 px-4 text-xs md:text-sm font-bold uppercase"
               >Vegetarian</span
             >
-            <p class="font-bold text-2xl mb-7">Japanese Gyozas</p>
+            <p class="font-bold text-xl sm:text-2xl mb-4 md:mb-7">
+              Japanese Gyozas
+            </p>
             <div class="flex mb-2">
               <i
                 class="fa-sharp-duotone fa-solid fa-fire text-2xl font-bold"
@@ -355,7 +377,7 @@
             alt="meal-1"
             class="h-60 w-full object-cover"
           />
-          <div class="py-8 px-10">
+          <div class="border-red-600 py-6 md:py-8 px-4 md:px-10">
             <span
               class="bg-gray-800 text-lime-400 rounded-2xl py-1 px-4 text-xs md:text-sm font-bold uppercase"
               >Vegan</span
@@ -364,7 +386,9 @@
               class="bg-amber-200 rounded-2xl py-1 px-4 text-xs md:text-sm font-bold uppercase"
               >Paleo</span
             >
-            <p class="font-bold text-2xl mb-7">Avocado Salad</p>
+            <p class="font-bold text-xl sm:text-2xl mb-4 md:mb-7">
+              Avocado Salad
+            </p>
             <div class="flex mb-2">
               <i
                 class="fa-sharp-duotone fa-solid fa-fire text-2xl font-bold"
@@ -387,43 +411,45 @@
             </div>
           </div>
         </div>
-        <div class="">
-          <h3 class="text-2xl font-bold mb-8">Works with any diet:</h3>
+        <div class="px-2">
+          <h3 class="text-xl sm:text-2xl font-bold mb-5 md:mb-8">
+            Works with any diet:
+          </h3>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Vegetarian</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Vegetarian</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Vegan</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Vegan</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Pescatarian</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Pescatarian</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Gluten-free</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Gluten-free</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Lactose-free</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Lactose-free</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Keto</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Keto</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Paleo</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Paleo</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Low FODMAP</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Low FODMAP</p>
           </div>
           <div class="flex mb-3.5">
-            <i class="fa-solid fa-check text-2xl mr-5"></i>
-            <p class="text-lg font-bold">Kid-friendly</p>
+            <i class="fa-solid fa-check text-xl md:text-2xl mr-3 md:mr-5"></i>
+            <p class="text-lg font-semibold md:font-bold">Kid-friendly</p>
           </div>
         </div>
       </div>
@@ -434,13 +460,19 @@
       </div>
       <!-- ===================== -->
       <div
-        class="mt-24 max-w-11/12 mx-auto grid lg:grid-cols-2 lg:gap-x-9 xl:gap-x-20 justify-center items-center"
+        class="px-1.5 mt-10 md:mt-24 sm:max-w-11/12 mx-auto grid lg:grid-cols-2 lg:gap-x-9 xl:gap-x-20 justify-center items-center"
       >
         <!-- ========Left Div======= -->
-        <div class="xl:pt-20 pb-14 lg:pb-0">
+        <div class="pt-0 xl:pt-20 pb-14 lg:pb-0">
           <div>
-            <p class="xl:text-lg font-bold uppercase">Testimonials</p>
-            <h2 class="text-3xl xl:text-4xl font-bold mt-4 mb-5 md:mb-10">
+            <p
+              class="text-sm xl:text-lg font-bold uppercase text-center md:text-start"
+            >
+              Testimonials
+            </p>
+            <h2
+              class="text-2xl md:text-3xl xl:text-4xl font-bold mt-4 mb-5 md:mb-10"
+            >
               Once you try it, you can't go back
             </h2>
           </div>
@@ -590,20 +622,24 @@
     </section>
     <!-- ============= -->
     <!-- ========= Section3 =========== -->
-    <section class="pt-12 px-10 sm:px-4">
-      <div class="text-center p-4">
-        <p class="font-bold lg:text-lg uppercase mb-3">Pricing</p>
-        <p class="font-bold text-3xl lg:text-4xl mb-16">
+    <section class="pt-12 px-1.5 sm:px-4">
+      <div class="text-center p-2 md:p-4">
+        <p class="font-bold text-sm lg:text-lg uppercase mb-3">Pricing</p>
+        <p class="font-bold text-2xl sm:text-3xl lg:text-4xl mb-16">
           Eating well without breaking the bank
         </p>
       </div>
-      <div class="mb-16 flex justify-center items-center flex-col md:flex-row">
+      <div
+        class="px-0 mb-16 flex justify-center items-center flex-col md:flex-row"
+      >
         <div
-          class="border mb-14 md:mb-0 w-96 md:w-72 md:mr-14 lg:w-96 lg:mr-24 text-center px-10 py-16 rounded"
+          class="border mb-10 md:mb-0 w-full sm:w-96 md:w-72 md:mr-14 lg:w-96 lg:mr-24 text-center px-3 sm:px-7 md:px-10 py-10 md:py-16 rounded"
         >
-          <p class="font-bold text-lg uppercase md:mb-6 lg:mb-8">Starter</p>
-          <p class="font-bold md:text-5xl lg:text-6xl mb-4">
-            <span class="text-2xl font-bold">$</span>399
+          <p class="font-bold text-sm md:text-lg uppercase md:mb-6 lg:mb-8">
+            Starter
+          </p>
+          <p class="font-bold md:text-5xl lg:text-6xl mt-3 mb-4">
+            <span class="text-xl sm:text-2xl font-bold">$</span>399
           </p>
           <p class="mb-8 md:text-sm lg:text-lg">
             per month. That's just $13 per meal!
@@ -625,15 +661,17 @@
             <p class="md:text-sm lg:text-lg">Get access to latest recipes</p>
           </div>
           <button
-            class="font-bold text-lg md:text-sm py-2 px-8 md:py-1 md:px-5 lg:text-lg lg:py-2 lg:px-8 bg-lime-400 text-gray-800 cursor-pointer rounded-2xl mt-5"
+            class="font-bold text-sm sm:text-lg md:text-sm py-2 px-5 sm:px-8 md:py-1 md:px-5 lg:text-lg lg:py-2 lg:px-8 bg-lime-400 text-gray-800 cursor-pointer rounded-2xl mt-5"
           >
             Start eating well
           </button>
         </div>
         <div
-          class="border rounded w-96 md:w-72 lg:w-96 text-center px-10 py-16"
+          class="border rounded w-full md:w-72 lg:w-96 text-center px-3 sm:px-7 md:px-10 py-10 md:py-16"
         >
-          <p class="font-bold text-lg uppercase md:mb-6 lg:mb-8">Complete</p>
+          <p class="font-bold text-sm sm:text-lg uppercase md:mb-6 lg:mb-8">
+            Complete
+          </p>
           <p class="font-bold md:text-5xl lg:text-6xl mb-4">
             <span class="text-2xl font-bold">$</span>649
           </p>
@@ -655,7 +693,7 @@
             <p class="md:text-sm lg:text-lg">Get access to latest recipes</p>
           </div>
           <button
-            class="font-bold text-lg md:text-sm py-2 px-8 md:py-1 md:px-5 lg:text-lg lg:py-2 lg:px-8 bg-lime-400 text-gray-800 cursor-pointer rounded-2xl mt-4"
+            class="font-bold text-sm sm:text-lg md:text-sm py-2 px-5 sm:px-8 md:py-1 md:px-5 lg:text-lg lg:py-2 lg:px-8 bg-lime-400 text-gray-800 cursor-pointer rounded-2xl mt-4"
           >
             Start eating well
           </button>
@@ -668,53 +706,57 @@
         </p>
       </div>
       <div
-        class="my-20 p-4 lg:max-w-6xl xl:max-w-7xl mx-auto grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 md:grid-cols-4 lg:gap-x-20"
+        class="my-8 sm:my-15 md:my-20 p-0 sm:p-4 lg:max-w-6xl xl:max-w-7xl mx-auto grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 md:grid-cols-4 lg:gap-x-20"
       >
-        <div class="mb-4">
+        <div class="mb-4 py-2.5">
           <div
-            class="border-2 w-16 h-16 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-5 sm:mb-3 lg:mb-5"
+            class="border-2 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-2 sm:mb-3 lg:mb-5"
           >
-            <i class="fa-solid fa-infinity text-3xl sm:text-xl lg:text-3xl"></i>
+            <i class="fa-solid fa-infinity text-2xl sm:text-xl lg:text-3xl"></i>
           </div>
-          <h4 class="text-xl md:text-2xl font-bold mb-5">Never cook again!</h4>
+          <h4 class="text-lg sm:text-xl md:text-2xl font-bold mb-1.5 md:mb-5">
+            Never cook again!
+          </h4>
           <p class="text-sm md:text-lg tracking-wider">
             Our subscriptions cover 365 days per year, even including major
             holidays.
           </p>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 py-2.5">
           <div
-            class="border-2 w-16 h-16 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-5 sm:mb-3 lg:mb-5"
+            class="border-2 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-2 sm:mb-3 lg:mb-5"
           >
-            <i class="fa-brands fa-apple text-4xl sm:text-2xl lg:text-4xl"></i>
+            <i class="fa-brands fa-apple text-2xl sm:text-2xl lg:text-4xl"></i>
           </div>
-          <h4 class="text-xl md:text-2xl font-bold mb-5">Local and organic</h4>
+          <h4 class="text-xl md:text-2xl font-bold mb-1.5">
+            Local and organic
+          </h4>
           <p class="text-sm md:text-lg tracking-wider">
             Our cooks only use local, fresh, and organic products to prepare
             your meals.
           </p>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 py-2.5">
           <div
-            class="border-2 w-16 h-16 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-5 sm:mb-3 lg:mb-5"
+            class="border-2 w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-2 sm:mb-3 lg:mb-5"
           >
             <i
-              class="fa-notdog-duo fa-solid fa-leaf text-3xl sm:text-xl lg:text-3xl"
+              class="fa-notdog-duo fa-solid fa-leaf text-2xl sm:text-xl lg:text-3xl"
             ></i>
           </div>
-          <h4 class="text-xl md:text-2xl font-bold mb-5">No waste</h4>
+          <h4 class="text-xl md:text-2xl font-bold mb-1.5">No waste</h4>
           <p class="text-sm md:text-lg tracking-wider">
             All our partners only use reusable containers to package all your
             meals.
           </p>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 py-2.5">
           <div
-            class="border-2 w-16 h-16 sm:w-12 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-5 sm:mb-3 lg:mb-5"
+            class="border-2 w-10 h-10 sm:w-10 sm:h-12 lg:w-16 lg:h16 flex justify-center items-center bg-lime-400 text-gray-800 rounded-full mb-2 sm:mb-3 lg:mb-5"
           >
-            <i class="fa-solid fa-pause text-3xl sm:text-xl lg:text-3xl"></i>
+            <i class="fa-solid fa-pause text-2xl sm:text-xl lg:text-3xl"></i>
           </div>
-          <h4 class="text-xl md:text-2xl font-bold mb-5">Pause anytime</h4>
+          <h4 class="text-xl md:text-2xl font-bold mb-1.5">Pause anytime</h4>
           <p class="text-sm md:text-lg tracking-wider">
             Going on vacation? Just pause your subscription, and we refund
             unused days.
@@ -723,13 +765,15 @@
       </div>
       <!-- =========The form container=========== -->
       <div
-        class="mb-16 lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col sm:flex-row rounded-2xl bg-lime-400 text-gray-800 overflow-hidden shadow-xl shadow-gray-950"
+        class="my-16 lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col sm:flex-row rounded-2xl bg-lime-400 text-gray-800 overflow-hidden shadow-xl shadow-gray-950"
       >
-        <div class="flex-1 md:flex-2 p-6 lg:p-10 order-2 sm:order-1">
-          <h1 class="text-3xl lg:text-4xl font-bold">
+        <div
+          class="flex-1 md:flex-2 p-0 py-5 sm:p-4 md:p-6 lg:p-10 order-2 sm:order-1"
+        >
+          <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">
             Get your first meal for free!
           </h1>
-          <p class="my-8 text-xl tracking-wider">
+          <p class="my-3 sm:my-5 md:my-8 text-sm md:text-xl tracking-wider">
             Healthy, tasty and hassle-free meals are waiting for you. Start
             eating well today. You can cancel or pause anytime. And the first
             meal is on us!
@@ -778,7 +822,7 @@
             </div>
             <div class="flex">
               <button
-                class="h-12 font-bold text-lg bg-gray-900 hover:bg-gray-700 text-lime-400 border-0 rounded-xl cursor-pointer mt-5 lg:mt-7 flex-1"
+                class="h-10 sm:h-12 font-bold text-sm sm:text-lg bg-gray-900 hover:bg-gray-700 text-lime-400 border-0 rounded-xl cursor-pointer mt-5 lg:mt-7 flex-1"
               >
                 Sign up now
               </button>
@@ -796,45 +840,55 @@
     </section>
     <hr />
     <footer
-      class="my-24 lg:max-w-6xl xl:max-w-7xl mx-auto px-4 xl:px-0 grid grid-cols-2 gap-14 sm:grid-cols-3 sm:gap-12 lg:grid-cols-5 lg:gap-x-12"
+      class="my-10 sm:my-16 md:my-24 lg:max-w-6xl xl:max-w-7xl mx-auto px-2 sm:px-4 xl:px-0 grid grid-cols-2 gap-7 md:gap-14 sm:grid-cols-3 sm:gap-12 lg:grid-cols-5 lg:gap-x-12"
     >
-      <div>
-        <div class="h-7 overflow-hidden mb-8">
+      <div class="pt-3">
+        <div class="h-5 sm:h-7 overflow-hidden mb-4 sm:mb-8">
           <img src="public/img/omnifood-logo.png" class="h-full" alt="" />
         </div>
-        <div class="flex mb-12">
+        <div class="flex mb-6 sm:mb-9 md:mb-12">
           <i class="fa-brands fa-instagram text-2xl mr-5"></i>
           <i class="fa-brands fa-facebook text-2xl mr-5"></i>
           <i class="fa-brands fa-twitter text-2xl"></i>
         </div>
-        <p class="text-sm">
+        <p class="text-xs sm:text-sm">
           Copyright © 2027 by Omnifood, Inc. All rights reserved.
         </p>
       </div>
-      <div>
-        <p class="text-xl font-semibold mb-8">Contact us</p>
-        <p class="mb-6">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
-        <p class="">415-201-6370 hello@omnifood.com</p>
+      <div class="pt-3">
+        <p class="text-sm sm:text-lg md:text-xl font-semibold mb-4 sm:mb-8">
+          Contact us
+        </p>
+        <p class="mb-3 text-sm md:mb-6">
+          623 Harrison St., 2nd Floor, San Francisco, CA 94107
+        </p>
+        <p class="text-sm">415-201-6370 hello@omnifood.com</p>
       </div>
-      <div>
-        <p class="text-lg font-semibold mb-8">Account</p>
-        <p class="mb-3 text-sm">Create account</p>
-        <p class="mb-3 text-sm">Sign in</p>
-        <p class="mb-3 text-sm">iOS app</p>
-        <p class="text-sm">Android app</p>
+      <div class="pt-3">
+        <p class="text-sm sm:text-lg md:text-xl font-semibold mb-4 md:mb-8">
+          Account
+        </p>
+        <p class="mb-1.5 sm:mb-3 text-xs sm:text-sm">Create account</p>
+        <p class="mb-1.5 sm:mb-3 text-xs sm:text-sm">Sign in</p>
+        <p class="mb-1.5 sm:mb-3 text-xs sm:text-sm">iOS app</p>
+        <p class="text-xs sm:text-sm">Android app</p>
       </div>
-      <div>
-        <p class="text-lg font-semibold mb-8">Company</p>
-        <p class="mb-3 text-sm">About Omnifood</p>
-        <p class="mb-3 text-sm">For Business</p>
-        <p class="mb-3 text-sm">Cooking partners</p>
-        <p class="text-sm">Careers</p>
+      <div class="pt-3">
+        <p class="text-sm sm:text-lg md:text-xl font-semibold mb-4 md:mb-8">
+          Company
+        </p>
+        <p class="mb-2 sm:mb-3 text-xs sm:text-sm">About Omnifood</p>
+        <p class="mb-2 sm:mb-3 text-xs sm:text-sm">For Business</p>
+        <p class="mb-2 sm:mb-3 text-xs sm:text-sm">Cooking partners</p>
+        <p class="text-xs sm:text-sm">Careers</p>
       </div>
-      <div>
-        <p class="text-lg font-semibold mb-8">Resources</p>
-        <p class="mb-3 text-sm">Recipe directory</p>
-        <p class="mb-3 text-sm">Help center</p>
-        <p class="mb-3 text-sm">Privacy & terms</p>
+      <div class="pt-3">
+        <p class="text-sm sm:text-lg md:text-xl font-semibold mb-4 md:mb-8">
+          Resources
+        </p>
+        <p class="mb-2 sm:mb-3 text-xs sm:text-sm">Recipe directory</p>
+        <p class="mb-2 sm:mb-3 text-xs sm:text-sm">Help center</p>
+        <p class="mb-2 sm:mb-3 text-xs sm:text-sm">Privacy & terms</p>
       </div>
     </footer>
     <!-- ============== Scripts to Load tailwind and other packages ========== -->
